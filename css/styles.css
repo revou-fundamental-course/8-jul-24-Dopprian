@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-content {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.main-title {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.section-main,
+.section-result,
+.section-consult {
+  margin: 20px 0;
+}
+.section-features {
+  padding: 20px;
+}
+form {
+  background-color: rgb(84, 146, 239);
+  padding: 12px;
+
+  border-radius: 8px;
+  border: 1px solid #000;
+}
+input[type="number"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid white;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+input[type="number"]:focus {
+  border: 3px solid green;
+}
+.section-keterangan {
+  border: none;
+  font-size: 20px;
+}
+
+.result-content {
+  border: 1px solid #000;
+  background-color: rgb(84, 146, 239);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.input-jeniskelamin,
+.form-input {
+  margin-bottom: 15px;
+}
+
+.input-proses {
+  display: inline-block;
+  margin: 5px 10px;
+}
+
+footer {
+  background-color: rgb(84, 146, 239);
+  border: 1px solid black;
+  text-align: center;
+  margin-top: 20px;
+  text-decoration: none;
+}
+footer p {
+  font-weight: bold;
+}
+
+.result-content .bmi-value,
+.result-content .bmi-status,
+.result-content .bmi-program {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+
+.consult-message {
+  font-size: 1.2em;
+  margin: 10px 0;
+}

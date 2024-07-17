@@ -3,7 +3,117 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>KALKULATOR BMI</title>
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
-  <body></body>
+  <body>
+    <main class="main-content">
+      <header>
+        <h1 class="main-title">KALKULATOR BMI</h1>
+      </header>
+
+      <section class="section-main">
+        <article class="section-keterangan">
+          <h2>Keterangan</h2>
+          <p>
+            Berat badan ideal adalah impian semua orang. Tidak hanya memiliki
+            bentuk tubuh yang menunjang penampilan, berat badan ideal juga
+            menandakan kondisi tubuh yang sehat. Bagaimana denganmu? Yuk, hitung
+            sekarang di Kalkulator BMI.
+          </p>
+        </article>
+
+        <form class="form">
+          <div class="input-jeniskelamin">
+            <h3>Jenis Kelamin</h3>
+            <div class="form-input">
+              <input
+                type="radio"
+                id="selection-man"
+                name="selection-gender"
+                value="man"
+              />
+              <label for="selection-man">Pria</label>
+              <input
+                type="radio"
+                id="selection-woman"
+                name="selection-gender"
+                value="woman"
+              />
+              <label for="selection-woman">Wanita</label>
+            </div>
+          </div>
+
+          <div class="form-input">
+            <label for="input-berat-badan">Berat badan (Kg)</label>
+            <input type="number" id="input-berat-badan" />
+          </div>
+
+          <div class="form-input">
+            <label for="input-usia">Usia (Thn)</label>
+            <input type="number" id="input-usia" />
+          </div>
+
+          <div class="form-input">
+            <label for="input-tinggi-badan">Tinggi badan (Cm)</label>
+            <input type="number" id="input-tinggi-badan" />
+          </div>
+
+          <button class="input-proses" id="hitung-bmi-btn">Hitung BMI</button>
+          <button type="reset" class="input-proses">Reset</button>
+        </form>
+      </section>
+
+      <section class="section-result">
+        <article>
+          <h2>Hasil Perhitungan</h2>
+          <div class="result-content">
+            <p class="bmi-value">-</p>
+            <p class="bmi-status">-</p>
+            <p class="bmi-program">-</p>
+          </div>
+        </article>
+      </section>
+
+      <section class="section-consult">
+        <article>
+          <h2>Consultation</h2>
+          <p class="consult-message">-</p>
+          <button>
+            <a href="https://www.tiktok.com/.giyu21" target="_blank">
+              Konsultasi ahlinya via Tiktok
+            </a>
+          </button>
+
+          <button>
+            <a href="https://wa.me/089637143296" target="_blank"
+              >Chat dengan kami di WhatsApp</a
+            >
+          </button>
+        </article>
+      </section>
+
+      <section class="section-features">
+        <article>
+          <h2>Keunggulan fitur</h2>
+          <ol>
+            <li>Menghitung Berat badan (Kg)</li>
+            <li>Menentukan kategori berat badan ideal atau tidak</li>
+            <li>Mempersiapkan program penurunan berat badan</li>
+            <li>Membantu Pemantauan Kesehatan</li>
+            <li>Gratis dan Tersedia Secara Online</li>
+          </ol>
+        </article>
+      </section>
+
+      <footer>
+        <h2>Penyakit yang berasal dari kegemukan</h2>
+        <p>Diabetes</p>
+        <p>Hipertensi</p>
+        <p>Sakit Jantung</p>
+        <p>Osteoarthritis</p>
+      </footer>
+    </main>
+    <script src="js/scripts.js"></script>
+  </body>
 </html>
